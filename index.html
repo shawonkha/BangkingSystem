@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pioneer Bank</title>
+	<link rel="icon" type="image/x-icon" href="#">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="area flex">
+		<div id="first_container" class="container flex">
+				<h1>Welcome to Bangking system</h1>
+			<form action="#">
+				<div class="login-page">
+					<h1>Log In</h1>
+					<input class="input" id="email" type="email" id="email" placeholder="Your Email" required>
+					<input class="input" id="password" type="password" placeholder="Your Password" required>
+					<input type="submit" id="submit" class="btn" value="Submit">
+				</div>
+			</form>
+		</div>
+		<div id="second_container" class="container flex">
+			<div class="dispaly-amount flex">
+				<div class="item">
+					<h2>Deposit</h2>
+					<h1 id="deposit_amount">$ <span>1100</span></h1>
+				</div>
+				<div class="item">
+					<h2>Withdraw</h2>
+					<h1 id="withdraw_amount">$ <span>100</span></h1>
+				</div>
+				<div class="item">
+					<h2>Balance</h2>
+					<h1 id="balance_amount">$ <span>10000</span></h1>
+				</div>
+			</div>
+			<div class="enter-withdraw flex">
+				<div class="amount">
+					<h3>Deposit</h3>
+					<p id="depo_error" class="empty">This is empty</p>
+					<input type="text" id="entry_deposit" class="input" placeholder="$ amount you want to deposit">
+					<button id="deposit" class="btn">Deposit</button>
+				</div>
+				<div class="amount">
+					<h3>Withdraw</h3>
+					<p id="with_error" class="empty">This is empty </p>
+					<input type="text" id="entry_withdraw" class="input" placeholder="$ amount you want to withdraw">
+					<button id="withdraw" class="btn">Withdraw</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
