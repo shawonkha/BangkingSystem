@@ -2,7 +2,7 @@ const submitBtn = document.getElementById('submit');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const emailAddress = "mdshawonkhan@gmail.com";
-const rightPassword = "Shawon7777@";
+const rightPassword = "Shawon";
 
 submitBtn.addEventListener('click',()=>{
 	if (email.value !== emailAddress && password.value !== rightPassword || email == '' || password == '') {
